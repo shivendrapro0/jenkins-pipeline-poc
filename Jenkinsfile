@@ -1,5 +1,6 @@
 node {
    def mvnHome
+   println "Hello from groovy"
    stage('Preparation') { // for display purposes
       // Get some code from a GitHub repository
       git 'https://github.com/shivendrapro0/jenkins-pipeline-poc.git'
